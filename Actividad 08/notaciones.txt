@@ -1,0 +1,12 @@
+Ejercicio 1
+
+A-B / (C*D$E)
+A-B / (C*DE$)
+A-B / (CDE$*)
+AB- / CDE$*
+AB-CED$/ <----- NOTACION POSTFIJA
+
+((A+B)*C-(D-E)) $ (F+G)
+((AB+)*C-(DE-)) $ (FG+)
+(AB+*DE--) $ (FG+)
+AB+C*DE--FG+$ <------- NOTACION POSTFIJA

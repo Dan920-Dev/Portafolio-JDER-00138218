@@ -1,0 +1,27 @@
+    Algoritmo
+    
+float takeLastLikePeek(Pila s){
+    float devolver;
+    while(!empty(&s)){
+        devolver = pop(&s);
+    }
+    return devolver;
+}
+    int main(){
+    initialize(&unaPila);
+    push(&unaPila, 69.2);
+    push(&unaPila, 3.4);
+    push(&unaPila, 5.6);
+    push(&unaPila, 43.2);
+    
+    if(empty(&unaPila)){
+        cout << "La pila estaba vacia " << endl;
+    }else{
+        cout << "El elemento del fondo de la pila es: " << takeLastLikePeek(unaPila);
+    }
+    if(!empty(&unaPila)){
+        cout << " y la pila esta intacta" << endl;
+    }
+    
+    return 0;
+}
